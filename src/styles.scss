@@ -11,5 +11,9 @@ $app-primary: mat-palette($mat-purple);
 // Export theme colors
 $primary: mat-color($app-primary);
 
+.default-shadow {
+    @include mat-elevation(8, #000000, 0.8);
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
